@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760AB1661DF45E3E6A6614ED /* Pods_NotePad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F1CC0578F1A6747AF22608 /* Pods_NotePad.framework */; };
+		84D085CC2433272A00DAE0AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D085CB2433272A00DAE0AF /* AppDelegate.swift */; };
+		84D085CE2433272A00DAE0AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D085CD2433272A00DAE0AF /* SceneDelegate.swift */; };
+		84D085D32433272A00DAE0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D085D12433272A00DAE0AF /* Main.storyboard */; };
+		84D085D62433272A00DAE0AF /* NotePad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D085D42433272A00DAE0AF /* NotePad.xcdatamodeld */; };
+		84D085D82433272F00DAE0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D085D72433272F00DAE0AF /* Assets.xcassets */; };
+		84D085DB2433272F00DAE0AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D085D92433272F00DAE0AF /* LaunchScreen.storyboard */; };
+		84D085E3243327A600DAE0AF /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D085E2243327A600DAE0AF /* NoteTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B0C9B198EAC211FC89F117A /* Pods-NotePad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotePad.debug.xcconfig"; path = "Target Support Files/Pods-NotePad/Pods-NotePad.debug.xcconfig"; sourceTree = "<group>"; };
+		84D085C82433272A00DAE0AF /* NotePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D085CB2433272A00DAE0AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84D085CD2433272A00DAE0AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84D085D22433272A00DAE0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D085D52433272A00DAE0AF /* NotePad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotePad.xcdatamodel; sourceTree = "<group>"; };
+		84D085D72433272F00DAE0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D085DA2433272F00DAE0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D085DC2433272F00DAE0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D085E2243327A600DAE0AF /* NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
+		8E238938DE732A818B7960BC /* Pods-NotePad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotePad.release.xcconfig"; path = "Target Support Files/Pods-NotePad/Pods-NotePad.release.xcconfig"; sourceTree = "<group>"; };
+		95F1CC0578F1A6747AF22608 /* Pods_NotePad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotePad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D085C52433272A00DAE0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760AB1661DF45E3E6A6614ED /* Pods_NotePad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74BD1CF9C8B6DCC437ACD03E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B0C9B198EAC211FC89F117A /* Pods-NotePad.debug.xcconfig */,
+				8E238938DE732A818B7960BC /* Pods-NotePad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84D085BF2433272A00DAE0AF = {
+			isa = PBXGroup;
+			children = (
+				84D085CA2433272A00DAE0AF /* NotePad */,
+				84D085C92433272A00DAE0AF /* Products */,
+				74BD1CF9C8B6DCC437ACD03E /* Pods */,
+				D27A21157FFFC957A9EF1A94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84D085C92433272A00DAE0AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D085C82433272A00DAE0AF /* NotePad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D085CA2433272A00DAE0AF /* NotePad */ = {
+			isa = PBXGroup;
+			children = (
+				84D085CB2433272A00DAE0AF /* AppDelegate.swift */,
+				84D085CD2433272A00DAE0AF /* SceneDelegate.swift */,
+				84D085E424332B6800DAE0AF /* Controller */,
+				84D085E524332B7600DAE0AF /* View */,
+				84D085D72433272F00DAE0AF /* Assets.xcassets */,
+				84D085D92433272F00DAE0AF /* LaunchScreen.storyboard */,
+				84D085DC2433272F00DAE0AF /* Info.plist */,
+				84D085D42433272A00DAE0AF /* NotePad.xcdatamodeld */,
+			);
+			path = NotePad;
+			sourceTree = "<group>";
+		};
+		84D085E424332B6800DAE0AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84D085E2243327A600DAE0AF /* NoteTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84D085E524332B7600DAE0AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84D085D12433272A00DAE0AF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D27A21157FFFC957A9EF1A94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95F1CC0578F1A6747AF22608 /* Pods_NotePad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D085C72433272A00DAE0AF /* NotePad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D085DF2433272F00DAE0AF /* Build configuration list for PBXNativeTarget "NotePad" */;
+			buildPhases = (
+				4CF89F1D37D1876FBE65C7D2 /* [CP] Check Pods Manifest.lock */,
+				84D085C42433272A00DAE0AF /* Sources */,
+				84D085C52433272A00DAE0AF /* Frameworks */,
+				84D085C62433272A00DAE0AF /* Resources */,
+				54227C352F63C8C88814947E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotePad;
+			productName = NotePad;
+			productReference = 84D085C82433272A00DAE0AF /* NotePad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D085C02433272A00DAE0AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Duc Pham";
+				TargetAttributes = {
+					84D085C72433272A00DAE0AF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 84D085C32433272A00DAE0AF /* Build configuration list for PBXProject "NotePad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D085BF2433272A00DAE0AF;
+			productRefGroup = 84D085C92433272A00DAE0AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D085C72433272A00DAE0AF /* NotePad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D085C62433272A00DAE0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D085DB2433272F00DAE0AF /* LaunchScreen.storyboard in Resources */,
+				84D085D82433272F00DAE0AF /* Assets.xcassets in Resources */,
+				84D085D32433272A00DAE0AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CF89F1D37D1876FBE65C7D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotePad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54227C352F63C8C88814947E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotePad/Pods-NotePad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotePad/Pods-NotePad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NotePad/Pods-NotePad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D085C42433272A00DAE0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D085E3243327A600DAE0AF /* NoteTableViewController.swift in Sources */,
+				84D085CC2433272A00DAE0AF /* AppDelegate.swift in Sources */,
+				84D085CE2433272A00DAE0AF /* SceneDelegate.swift in Sources */,
+				84D085D62433272A00DAE0AF /* NotePad.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84D085D12433272A00DAE0AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D085D22433272A00DAE0AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D085D92433272F00DAE0AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D085DA2433272F00DAE0AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D085DD2433272F00DAE0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D085DE2433272F00DAE0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D085E02433272F00DAE0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0C9B198EAC211FC89F117A /* Pods-NotePad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AP86T8PZP5;
+				INFOPLIST_FILE = NotePad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phamdinhtoan795.NotePad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D085E12433272F00DAE0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E238938DE732A818B7960BC /* Pods-NotePad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AP86T8PZP5;
+				INFOPLIST_FILE = NotePad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phamdinhtoan795.NotePad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D085C32433272A00DAE0AF /* Build configuration list for PBXProject "NotePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D085DD2433272F00DAE0AF /* Debug */,
+				84D085DE2433272F00DAE0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D085DF2433272F00DAE0AF /* Build configuration list for PBXNativeTarget "NotePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D085E02433272F00DAE0AF /* Debug */,
+				84D085E12433272F00DAE0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84D085D42433272A00DAE0AF /* NotePad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84D085D52433272A00DAE0AF /* NotePad.xcdatamodel */,
+			);
+			currentVersion = 84D085D52433272A00DAE0AF /* NotePad.xcdatamodel */;
+			path = NotePad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84D085C02433272A00DAE0AF /* Project object */;
+}
